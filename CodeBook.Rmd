@@ -1,0 +1,108 @@
+---
+title: "CodeBook"
+author: "Juan Lozano"
+date: "July 2, 2018"
+output: html_document
+---
+
+# Code Book
+
+This code book describes all of the data fields in the `tidy.txt` file.
+
+## Identifiers
+
+ - `subject` - `integer` - The ID of the test subject
+   - 1 - 30
+ - `activity` - `string` - The type of activity that they were performing when the measurements were taken
+   - Walking
+   - Walking Upstairs
+   - Walking Downstairs
+   - Sitting
+   - Standing
+   - Laying
+
+## Measurements
+
+These variables are all of the `mean` values for the corresponding measurement based on the subject and the activity.  These are all of data type `numeric`.
+
+ 
+"TimeBodyAccelerometerMean()-X"                    
+"TimeBodyAccelerometerMean()-Y"                    
+"TimeBodyAccelerometerMean()-Z"                    
+"TimeBodyAccelerometerSTD()-X"                      
+"TimeBodyAccelerometerSTD()-Y"                     
+"TimeBodyAccelerometerSTD()-Z"                     
+"TimeGravityAccelerometerMean()-X"                 
+"TimeGravityAccelerometerMean()-Y"                  
+"TimeGravityAccelerometerMean()-Z"                 
+"TimeGravityAccelerometerSTD()-X"                   
+"TimeGravityAccelerometerSTD()-Y"                  
+"TimeGravityAccelerometerSTD()-Z"                   
+"TimeBodyAccelerometerJerkMean()-X"                
+"TimeBodyAccelerometerJerkMean()-Y"                 
+"TimeBodyAccelerometerJerkMean()-Z"                
+"TimeBodyAccelerometerJerkSTD()-X"                  
+"TimeBodyAccelerometerJerkSTD()-Y"                 
+"TimeBodyAccelerometerJerkSTD()-Z"                  
+"TimeBodyGyroscopeMean()-X"                        
+"TimeBodyGyroscopeMean()-Y"                         
+"TimeBodyGyroscopeMean()-Z"                        
+"TimeBodyGyroscopeSTD()-X"                          
+"TimeBodyGyroscopeSTD()-Y"                         
+"TimeBodyGyroscopeSTD()-Z"                          
+"TimeBodyGyroscopeJerkMean()-X"                    
+"TimeBodyGyroscopeJerkMean()-Y"                     
+"TimeBodyGyroscopeJerkMean()-Z"                    
+"TimeBodyGyroscopeJerkSTD()-X"                      
+"TimeBodyGyroscopeJerkSTD()-Y"                     
+"TimeBodyGyroscopeJerkSTD()-Z"                      
+"TimeBodyAccelerometerMagnitudeMean()"             
+"TimeBodyAccelerometerMagnitudeSTD()"               
+"TimeGravityAccelerometerMagnitudeMean()"          
+"TimeGravityAccelerometerMagnitudeSTD()"            
+"TimeBodyAccelerometerJerkMagnitudeMean()"         
+"TimeBodyAccelerometerJerkMagnitudeSTD()"           
+"TimeBodyGyroscopeMagnitudeMean()"                 
+"TimeBodyGyroscopeMagnitudeSTD()"                   
+"TimeBodyGyroscopeJerkMagnitudeMean()"             
+"TimeBodyGyroscopeJerkMagnitudeSTD()"               
+"FrequencyBodyAccelerometerMean()-X"               
+"FrequencyBodyAccelerometerMean()-Y"                
+"FrequencyBodyAccelerometerMean()-Z"               
+"FrequencyBodyAccelerometerSTD()-X"                 
+"FrequencyBodyAccelerometerSTD()-Y"                
+"FrequencyBodyAccelerometerSTD()-Z"                 
+"FrequencyBodyAccelerometerMeanFreq()-X"           
+"FrequencyBodyAccelerometerMeanFreq()-Y"            
+"FrequencyBodyAccelerometerMeanFreq()-Z"           
+"FrequencyBodyAccelerometerJerkMean()-X"            
+"FrequencyBodyAccelerometerJerkMean()-Y"           
+"FrequencyBodyAccelerometerJerkMean()-Z"            
+"FrequencyBodyAccelerometerJerkSTD()-X"            
+"FrequencyBodyAccelerometerJerkSTD()-Y"             
+"FrequencyBodyAccelerometerJerkSTD()-Z"            
+"FrequencyBodyAccelerometerJerkMeanFreq()-X"        
+"FrequencyBodyAccelerometerJerkMeanFreq()-Y"       
+"FrequencyBodyAccelerometerJerkMeanFreq()-Z"        
+"FrequencyBodyGyroscopeMean()-X"                   
+"FrequencyBodyGyroscopeMean()-Y"                    
+"FrequencyBodyGyroscopeMean()-Z"                   
+"FrequencyBodyGyroscopeSTD()-X"                     
+"FrequencyBodyGyroscopeSTD()-Y"                    
+"FrequencyBodyGyroscopeSTD()-Z"                     
+"FrequencyBodyGyroscopeMeanFreq()-X"               
+"FrequencyBodyGyroscopeMeanFreq()-Y"                
+"FrequencyBodyGyroscopeMeanFreq()-Z"               
+"FrequencyBodyAccelerometerMagnitudeMean()"         
+"FrequencyBodyAccelerometerMagnitudeSTD()"         
+"FrequencyBodyAccelerometerMagnitudeMeanFreq()"     
+"FrequencyBodyAccelerometerJerkMagnitudeMean()"    
+"FrequencyBodyAccelerometerJerkMagnitudeSTD()"      
+"FrequencyBodyAccelerometerJerkMagnitudeMeanFreq()"
+"FrequencyBodyGyroscopeMagnitudeMean()"             
+"FrequencyBodyGyroscopeMagnitudeSTD()"             
+"FrequencyBodyGyroscopeMagnitudeMeanFreq()"         
+"FrequencyBodyGyroscopeJerkMagnitudeMean()"        
+"FrequencyBodyGyroscopeJerkMagnitudeSTD()"          
+"FrequencyBodyGyroscopeJerkMagnitudeMeanFreq()"    
+
